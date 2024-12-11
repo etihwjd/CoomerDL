@@ -60,8 +60,36 @@ If you have any issues or want to communicate with me, join my Discord server by
 
 ## Usage
 
+### Windows
+
 1. Open the application.
 2. Enter the URL of the image or video you want to download.
 3. Click the download button and wait for the process to complete.
 
 ![Usage GIF](https://github.com/Emy69/CoomerDL/blob/main/resources/screenshots/0627.gif)
+
+### Linux
+
+Install Python3, pip, and the appropriate version of TKinter from your package manager.
+
+In your terminal type:
+
+sudo pip install virtualenv
+
+git clone https://github.com/Emy69/CoomerDL
+
+cd Coomer
+
+mkdir env
+
+python3 -m venv env
+
+source env/bin/activate
+
+pip install -r requirements.txt
+
+chmod +x main.py
+
+./main.py 
+
+### Android 
