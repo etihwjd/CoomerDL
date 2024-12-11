@@ -6,3 +6,6 @@ pillow
 psutil
 markdown2
 tkinterweb
+cloud scraper
+patool
+selenium
